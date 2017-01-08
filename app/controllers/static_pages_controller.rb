@@ -7,4 +7,14 @@ class StaticPagesController < ApplicationController
 
   def education
   end
+
+  def hire
+  end
+
+  def projects
+  end
+
+  def contact
+  end
+
 end

@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   get 'static_pages/background'
 
   get 'static_pages/education'
+    get 'static_pages/hire'
+    get 'static_pages/projects'
+      get 'static_pages/contact'
 
   resources :users
   # The priority is based upon order of creation: first created -> highest priority.
